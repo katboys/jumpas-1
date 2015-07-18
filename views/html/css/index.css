@@ -1,0 +1,125 @@
+/*reset.css  global*/
+*:after,*:before{
+	/*content: " ";*/display: block;
+	background: red;
+}
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: #fff;}
+html,body{
+	height: 100%;/*overflow: hidden;*/
+	/*background:url("../img/background-login.jpg") repeat scroll 0% 0% transparent;*/
+	}
+.container{
+	/*background:url("../img/background-login.jpg");*/
+	position: relative;
+	min-height: 100%;
+}
+.index-background{
+	/*background:url("../img/index.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;*/
+	background:url("../img/index.jpg") no-repeat scroll 0% 0% transparent;
+	background-size:110%;
+}
+.login-text{
+	position: relative;
+	top: 80px;
+	/*background-color: #eee;*/
+}
+.login-text >img{
+	width: 350px;
+	display: block;
+	margin-left: 50%;
+	transform:translateX(-50%);
+	/*background-color: #ff233f;*/
+
+}
+.login-text p{
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	margin-top:60px;
+}
+.login-text .p-24{
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	margin-top:20px;
+}
+.login-text a{
+	display: block;
+	width: 130px;
+	height: 40px;line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	border:1px solid #ddd;
+	background-color: transparent;/*背景色为透明*/
+	position: relative;
+	margin-top: 30px;
+	top:50px;
+	left: 50%;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-bottom: 20px;
+	-webkit-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	transform:translateX(-50%);
+	transition:color 0.8s;
+	transition:opacity 0.8s;
+	transition:background-color 0.8s;
+}
+
+.login-text a:hover{
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	background-color:#1E7CAE; 
+	opacity: 1;
+}
+.padding-color{
+	background-color: #146186;
+	display: block;
+	min-height: 40px;
+}
+/*----------复用代码，footer.css-------------*/
+.footer-index{
+	position:relative;
+	margin-top: 0px;
+	height: 70px;
+	background-color: #146186;
+	opacity: 0.8; /*透明度的设置*/
+/*	margin-top: -70px;*/
+	border-top-left-radius: 45%;
+	border-top-right-radius: 45%;
+	width: 100%;
+
+}
+.footer-index p{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+.footer-ul{
+	list-style: none;
+	/*background-color: red;*/
+	padding: 0 20px 0px 20px;
+	display: inline-block;
+	margin-top:15px;
+	position: relative;
+	width: 80%;
+	left: 50%;
+	transform:translateX(-50%);
+}
+.footer-ul li{
+	display: inline-block;
+/*	background-color: blue;*/
+	font-size: 18px;
+	width: 16%;
+	margin:0px 0px 5px 0px;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+}
